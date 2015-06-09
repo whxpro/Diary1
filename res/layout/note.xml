@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/muwen"
+    >
+    <LinearLayout 
+        android:id="@+id/textlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="55dp"
+        >
+        <com.example.diary.MyEditText
+    	android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="left|top"
+        android:inputType="textMultiLine" 
+        android:background="#00000000"
+		android:padding="5dip"
+		android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/buttonlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/muwen2"
+        >
+
+        <Button 
+            android:id="@+id/save"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="100dp"
+            android:text="保存"/>
+        <Button 
+            android:id="@+id/cancel"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="取消"/>"
+        
+    </LinearLayout>
+
+</RelativeLayout>

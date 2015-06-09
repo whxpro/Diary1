@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">点滴</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="userinfo">用户信息</string>
+	<string name="view">查看</string>
+	<string name="register">用户注册</string>
+</resources>

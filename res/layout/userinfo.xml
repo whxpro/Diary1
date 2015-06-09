@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back" >
+    
+
+    <com.example.diary.CircleImageView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_image_1"
+    android:layout_width="96dp"
+    android:layout_height="96dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="60dp"
+    android:src="@drawable/touxiang"
+    android:onClick="ChangePortrait"
+    />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <TextView 
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="用户名"
+            />
+        <EditText 
+            android:id="@+id/username_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="33dp">
+        <TextView 
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="密码"
+            />
+        <EditText 
+            android:id="@+id/password_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="33dp">
+        <TextView 
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="邮箱"
+            />
+        <EditText 
+            android:id="@+id/email_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="center_horizontal">
+        <Button 
+            android:id="@+id/change"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="修改"/>
+        <Button 
+            android:id="@+id/back"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="返回"/>
+    </LinearLayout>
+</LinearLayout>
