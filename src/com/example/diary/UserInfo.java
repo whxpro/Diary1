@@ -59,7 +59,7 @@ public class UserInfo extends Activity{
 	Button change,back;
 	HttpClient httpClient;
 	//boolean isLogin;
-	final String name="test";
+	final String name=MainActivity.username;
 	
 	static Bitmap upbitmap;
 	
